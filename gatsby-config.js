@@ -2,5 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "gatsbyjs-tutorial",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",],
 };
